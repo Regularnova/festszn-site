@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="robots" content="index, follow">
+<title>FESTSZN Privacy Policy</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #5c5c5c;
+    --rule: #e4e4e4;
+    --accent: #c8102e;
+    --callout-bg: #f6f6f4;
+    --code-bg: #f0f0ee;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --text: #ececec;
+      --muted: #a8a8a8;
+      --rule: #2e2e2e;
+      --accent: #ff5a6e;
+      --callout-bg: #1c1c1c;
+      --code-bg: #232323;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 2rem 16px 4rem;
+    padding-left: max(16px, env(safe-area-inset-left));
+    padding-right: max(16px, env(safe-area-inset-right));
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .25rem; letter-spacing: -0.01em; }
+  h2 { font-size: 1.25rem; line-height: 1.3; margin: 2.25rem 0 .5rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+  h3 { font-size: 1.05rem; margin: 1.5rem 0 .25rem; }
+  p, ul { margin: .5rem 0 1rem; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .35rem 0; }
+  a { color: var(--accent); text-underline-offset: 2px; overflow-wrap: anywhere; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .9em; background: var(--code-bg); padding: .1em .35em; border-radius: 4px; overflow-wrap: anywhere; }
+  .meta { color: var(--muted); font-size: .95rem; margin: 0 0 1.5rem; }
+  .callout { background: var(--callout-bg); border-left: 4px solid var(--accent); padding: .9rem 1rem; border-radius: 6px; margin: 1.25rem 0; }
+  .callout p { margin: .25rem 0; }
+  .toc { font-size: .95rem; }
+  .toc ol { padding-left: 1.25rem; margin: .25rem 0; }
+  .ph { background: #fff3a8; color: #3a3000; padding: 0 .2em; border-radius: 3px; }
+  @media (prefers-color-scheme: dark) { .ph { background: #5a4d00; color: #fff6c2; } }
+  table { width: 100%; border-collapse: collapse; font-size: .95rem; margin: .5rem 0 1rem; }
+  th, td { text-align: left; vertical-align: top; padding: .5rem .5rem .5rem 0; border-bottom: 1px solid var(--rule); }
+  th { font-weight: 600; }
+  @media (max-width: 30rem) {
+    table, thead, tbody, tr, th, td { display: block; }
+    thead { display: none; }
+    tr { border-bottom: 1px solid var(--rule); padding: .5rem 0; }
+    td { border: 0; padding: .15rem 0; }
+    td:first-child { font-weight: 600; }
+  }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>FESTSZN Privacy Policy</h1>
+  <p class="meta">TestFlight beta &middot; Last updated: November 5, 2026</p>
+
+  <div class="callout">
+    <p><strong>The short version:</strong> this beta has no accounts, no analytics, no ads, and no tracking. Your schedule, interests, profile, and connections stay on your iPhone. The app goes online to download the festival schedule and event images. Those requests reveal what any web request reveals, such as your IP address. We don&rsquo;t receive or keep anything else about you.</p>
+  </div>
+
+  <p>This policy covers the FESTSZN iOS app as distributed through Apple&rsquo;s TestFlight beta program. FESTSZN is operated by Michael Brown, doing business as RegularNova (&ldquo;we&rdquo;, &ldquo;us&rdquo;). It describes what the current beta build actually does. When the app changes in a way that affects your privacy, for example when sign-in launches, we will update this policy first.</p>
+
+  <nav class="toc" aria-label="Contents">
+    <ol>
+      <li><a href="#collect">What we collect</a></li>
+      <li><a href="#device">What stays on your device</a></li>
+      <li><a href="#network">Network requests and third parties</a></li>
+      <li><a href="#qr">QR contact exchange</a></li>
+      <li><a href="#permissions">Permissions and why we ask</a></li>
+      <li><a href="#testflight">Apple TestFlight</a></li>
+      <li><a href="#children">Children</a></li>
+      <li><a href="#choices">Your choices and deleting your data</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <h2 id="collect">1. What we collect</h2>
+  <p>In this beta, <strong>we don&rsquo;t collect personal information on our own servers.</strong> In particular:</p>
+  <ul>
+    <li><strong>No account.</strong> Everyone uses the app as a guest. The &ldquo;Sign in&rdquo; button only shows a &ldquo;coming soon&rdquo; message and sends nothing. We will update this policy before sign-in launches.</li>
+    <li><strong>No analytics, crash-reporting, or advertising SDKs.</strong> The app contains no third-party tracking code. It doesn&rsquo;t use the advertising identifier and doesn&rsquo;t track you across other companies&rsquo; apps or websites.</li>
+    <li><strong>No location history.</strong> If you allow location, the map shows your position as a blue dot. The app never stores your location or sends it to us.</li>
+    <li><strong>No audio.</strong> Voice input is transcribed on your iPhone. Audio is never recorded, saved, or sent.</li>
+  </ul>
+  <p>We can still learn a little about you in two indirect ways: the routine request information described in <a href="#network">section 3</a>, and the crash reports and feedback Apple passes on through TestFlight (<a href="#testflight">section 6</a>).</p>
+
+  <h2 id="device">2. What stays on your device</h2>
+  <p>The app stores the following only on your iPhone. None of it is sent to us or any third party.</p>
+  <table>
+    <thead><tr><th>Data</th><th>Where it comes from and what it does</th></tr></thead>
+    <tbody>
+      <tr><td>Interests, goal, and visit dates</td><td>What you pick or tell the app during setup. Used to recommend sessions.</td></tr>
+      <tr><td>What you tell the app in your own words</td><td>If you describe what you&rsquo;re here for, at setup or later through &ldquo;Tell me more&rdquo;, in text or by voice, the app keeps each answer as a separate dated note (text only, never audio). Apple&rsquo;s on-device model reads these notes to tailor your picks, with newer notes taking priority. Redoing setup starts the notes over.</td></tr>
+      <tr><td>Your days</td><td>For each day of your visit, whether you&rsquo;re free all day, in the daytime, at night, or busy, and how you&rsquo;re getting in (for example your badge type). Used to recommend things you can actually make and get into.</td></tr>
+      <tr><td>AI interest profile</td><td>Topics and preferences the app works out from your choices. Built by Apple&rsquo;s on-device model (Apple Intelligence) where available, otherwise by simple rules. It never leaves your device.</td></tr>
+      <tr><td>Saved items</td><td>Sessions and events you mark &ldquo;Interested&rdquo; or &ldquo;Going&rdquo;.</td></tr>
+      <tr><td>Profile</td><td>The first name, last name, and email you can optionally enter in Profile. Your name appears in your QR code (see <a href="#qr">section 4</a>). Your email isn&rsquo;t used for anything in this beta and isn&rsquo;t shared.</td></tr>
+      <tr><td>Connections</td><td>The name and random app ID of anyone whose FESTSZN QR code you scan.</td></tr>
+      <tr><td>Settings</td><td>Notification preferences, and the date you first opened the app (used to run the demo festival week, see the <a href="https://www.festszn.com/terms.html">Terms</a>).</td></tr>
+      <tr><td>Festival schedule</td><td>A downloaded copy of the public event catalog, so the app works offline.</td></tr>
+      <tr><td>Widget and Live Activity</td><td>Your upcoming &ldquo;Going&rdquo; sessions, shared with the FESTSZN widget and Live Activity through a private storage area on your iPhone.</td></tr>
+    </tbody>
+  </table>
+  <p>Reminders and Live Activities are created on your iPhone. The app doesn&rsquo;t use push notifications and doesn&rsquo;t register for a push token.</p>
+  <p><strong>Device backups.</strong> Like most apps&rsquo; data, this information may be included in your iPhone&rsquo;s iCloud Backup or computer backup if you have backups turned on. Those backups are handled by Apple under Apple&rsquo;s terms. We can&rsquo;t access them.</p>
+
+  <h2 id="network">3. Network requests and third parties</h2>
+  <p>The app works offline once it has downloaded the schedule. It goes online only for the following.</p>
+
+  <h3>Festival schedule: Supabase</h3>
+  <p>When you open the app (at most about once a minute) and when your connection comes back, the app checks for schedule updates. The schedule is hosted by <strong>Supabase</strong>, which serves files through its content delivery network (currently Cloudflare). A request contains:</p>
+  <ul>
+    <li>which festival season to fetch, plus a catalog version number;</li>
+    <li>a public app key that identifies the FESTSZN app, not you;</li>
+    <li>standard information every web request carries: your <strong>IP address</strong>, the app version and iOS version (the &ldquo;user agent&rdquo;), and your device&rsquo;s preferred language.</li>
+  </ul>
+  <p>It doesn&rsquo;t contain your name, email, interests, saved items, connections, location, or any identifier tied to you or your device. Supabase and its CDN may keep server logs, including IP addresses, for a limited time for security and operations. Supabase&rsquo;s servers for FESTSZN are located in the United States (AWS US East, Northern Virginia). See <a href="https://supabase.com/privacy">Supabase&rsquo;s privacy policy</a>.</p>
+
+  <h3>Event and speaker images</h3>
+  <p>Images in the schedule are loaded directly from where the festival or event listing publishes them. Today that means:</p>
+  <ul>
+    <li><code>images.sxsw.com</code> (SXSW listings)</li>
+    <li><code>images.lumacdn.com</code> and <code>cdn.lu.ma</code> (Luma event listings)</li>
+    <li><code>images.unsplash.com</code> (a few event cover images)</li>
+  </ul>
+  <p>When the app shows an image, your iPhone requests it from that host, which receives your IP address, user agent, and the image address. That address can reveal which event or speaker you were looking at. These hosts are run by third parties under their own privacy policies. We don&rsquo;t send them anything else. The list may change as listings change.</p>
+
+  <h3>Links you choose to open</h3>
+  <p>Some events have a &ldquo;See more&rdquo; link to the original listing (for example on Luma), which opens in an in-app Safari view. Links to this policy and the Terms open in Safari. Those websites receive your visit as usual under their own policies. The app doesn&rsquo;t share its data with them.</p>
+
+  <h3>Apple services</h3>
+  <p>Some features rely on Apple&rsquo;s own services, under <a href="https://www.apple.com/legal/privacy/">Apple&rsquo;s privacy policy</a>: the map (Apple Maps), &ldquo;Get Directions&rdquo; (opens the Apple Maps app with the venue&rsquo;s location), the one-time download of Apple&rsquo;s on-device speech and language models, and TestFlight itself.</p>
+
+  <h3>Not used</h3>
+  <p>No analytics, crash reporting, advertising, social media SDKs, data brokers, or tracking pixels. We don&rsquo;t sell or share personal information, and we don&rsquo;t use it for targeted advertising.</p>
+
+  <h2 id="qr">4. QR contact exchange</h2>
+  <p>Your FESTSZN QR code is made on your iPhone. It contains:</p>
+  <ul>
+    <li>the name from your Profile (or &ldquo;You&rdquo; if you haven&rsquo;t set one);</li>
+    <li>a random ID the app created for you, which isn&rsquo;t linked to your Apple ID, phone number, or email;</li>
+    <li>a random ID for the festival.</li>
+  </ul>
+  <p>It never contains your email. When someone scans your code in FESTSZN, their app saves your name and random ID as a connection on <em>their</em> phone. Nothing goes through a server, and you don&rsquo;t receive their details unless you scan their code too.</p>
+  <p>The code is written as a web link (<code>https://festszn.com/connect#&hellip;</code>) so other QR readers can recognize it. If someone scans it with a regular camera app instead of FESTSZN, their phone may open that link in a browser. Your name and random ID are in the part of the link after the &ldquo;#&rdquo;, which browsers never send to a website, so the festszn.com server doesn&rsquo;t receive them. The person who scanned it can still see your name on their screen. Only show your code to people you want to share your name with.</p>
+
+  <h2 id="permissions">5. Permissions and why we ask</h2>
+  <p>The app asks for each permission only when you first use the feature that needs it. You can say no and still use the rest of the app, and you can change your mind any time in the iPhone Settings app.</p>
+  <table>
+    <thead><tr><th>Permission</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>Location (While Using)</td><td>Shows where you are on the festival map. Asked when you open Maps. Never stored, never sent, never used in the background.</td></tr>
+      <tr><td>Camera</td><td>Scans other attendees&rsquo; QR codes. The camera feed is only used to read the code, and nothing is saved.</td></tr>
+      <tr><td>Microphone</td><td>Lets you talk instead of type during setup, on iOS 26 devices that support it. Speech is transcribed on your iPhone. Audio is never recorded or sent.</td></tr>
+      <tr><td>Notifications</td><td>Reminders before sessions you&rsquo;re going to. Created on your iPhone.</td></tr>
+      <tr><td>Calendar (iOS 16 only)</td><td>Adds a session to your calendar when you ask. On iOS 17 and later, Apple&rsquo;s editor does this without the app getting calendar access. The app never reads your existing calendar events.</td></tr>
+      <tr><td>Live Activities</td><td>Shows your next session on the Lock Screen and Dynamic Island. You can turn this off in Settings.</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="testflight">6. Apple TestFlight</h2>
+  <p>You get this beta through Apple&rsquo;s TestFlight app. Apple, not FESTSZN, runs TestFlight, and Apple shares some information with us as the developer:</p>
+  <ul>
+    <li>your name and email address, if you were invited by email (public-link testers may stay anonymous);</li>
+    <li>crash reports, which include device and iOS details and technical information about the crash;</li>
+    <li>feedback and screenshots you choose to send through TestFlight;</li>
+    <li>basic usage details such as installs, sessions, and the build you are running.</li>
+  </ul>
+  <p>We use this only to run the beta, fix bugs, and improve the app. We keep it only until the beta ends. Apple&rsquo;s handling is covered by the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a> and TestFlight&rsquo;s terms.</p>
+
+  <h2 id="children">7. Children</h2>
+  <p>FESTSZN is not directed to anyone under 16, and the beta is only for testers aged 16 and older. The app doesn&rsquo;t ask for anyone&rsquo;s age in this build, and we don&rsquo;t knowingly collect personal information from children. Because we don&rsquo;t collect personal information on our servers, there is normally nothing for us to delete. If you believe a child has sent us information, for example through TestFlight feedback, contact us and we will delete it.</p>
+
+  <h2 id="choices">8. Your choices and deleting your data</h2>
+  <ul>
+    <li><strong>Delete everything:</strong> deleting the FESTSZN app from your iPhone removes all the data in <a href="#device">section 2</a>. To also remove copies in device backups, manage those backups in iPhone Settings.</li>
+    <li><strong>Edit:</strong> change your name or email in More &rsaquo; Profile, your interests, dates and goal in More, and your saved items at any time.</li>
+    <li><strong>Permissions:</strong> turn location, camera, microphone, notifications, calendar, and Live Activities on or off in the Settings app.</li>
+    <li><strong>Leave the beta:</strong> stop testing in the TestFlight app. To ask us to delete TestFlight information Apple shared with us, contact us.</li>
+    <li><strong>Your rights:</strong> depending on where you live, you may have the right to access, correct, delete, or object to the use of personal information we hold about you, and to complain to a data protection authority. Contact us and we will help. In practice the only personal information we hold is TestFlight information and short-lived server logs.</li>
+  </ul>
+  <p>The app&rsquo;s &ldquo;Download My Data&rdquo; and &ldquo;Delete My Account&rdquo; settings are marked &ldquo;coming soon&rdquo; because there is no account to download or delete yet.</p>
+
+  <h2 id="changes">9. Changes to this policy</h2>
+  <p>We will update this policy before the app changes how it handles your information. Planned changes include accounts and sign-in, syncing your saved items and connections, and any analytics or crash reporting. We will change the &ldquo;Last updated&rdquo; date and, for significant changes, tell you in the app or the TestFlight release notes.</p>
+
+  <h2 id="contact">10. Contact</h2>
+  <p>Questions or requests about privacy: <a href="mailto:privacy@festszn.com">privacy@festszn.com</a></p>
+  <p>Michael Brown, doing business as RegularNova</p>
+
+  <footer>
+    <p>See also the <a href="https://www.festszn.com/terms.html">FESTSZN Terms of Service</a>.</p>
+  </footer>
+</main>
+</body>
+</html>
